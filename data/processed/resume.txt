@@ -1,0 +1,58 @@
+Himnish Kapoor
+Redmond, WA 98053 | +1-425-866-5162 | himnishkapoor@outlook.com
+US Citizen – Eligible to work anywhere in the United States
+LinkedIn
+Professional Summary
+Software Engineer and Analytics graduate with experience building scalable AI-powered applications, network infras-
+tructure solutions, and data-driven systems. Skilled in backend development, machine learning, SNMP telemetry,
+distributed systems, and recommendation engines, with hands-on experience delivering production-ready features
+across cloud, networking, and AI platforms.
+Education
+Georgia Institute of Technology Atlanta, Georgia
+Master of Science in Analytics (Computational Data Analytics) Aug 2022 – Jul 2024
+Birla Institute of Technology and Science, Pilani Hyderabad, Telangana
+B.E. (Hons.) in Computer Science Aug 2018 – May 2022
+Skills
+Programming Languages: Python, Java, C++, C, R, JavaScript, HTML, CSS, XML
+Frameworks/Libraries: Spark, Hadoop, TensorFlow, Keras, NumPy, SciPy, PuLP, Apache Flink, Flask
+Databases: MySQL, MongoDB
+Analytical Techniques: Machine Learning, Data Clustering, Regression, Simulation, Time Series Analysis, Longi-
+tudinal Analysis
+Software/Technologies: Git, Android Studio, Simio, Arena, SNMP
+Experience
+Wipro Limited Oct 2024 – Present
+Microsoft StarLab – Network Software Engineer
+• Designed and developed a centralized PDU power-utilization monitoring platform using SNMP telemetry collection
+and time-series data ingestion to improve monitoring and reduce MTTR.
+• Implemented routing and switching configurations including IP schemes, VLAN segmentation, and gateway config-
+urations for reliable network connectivity.
+• Diagnosed Layer 2/3 networking issues involving VLANs, IP reachability, gateways, and interface health.
+• Conducted end-to-end SSH connectivity troubleshooting across management and routing paths.
+Ecohome.one Nov 2025 – Present
+Software Engineering Intern
+• EnhancedanAI-poweredchatbotapplicationthroughimprovedintenthandling,structuredproductdataextraction,
+and dynamic navigation logic.
+• Built an incremental AI-based price and carbon estimation scheduler reducing processing volume by approximately
+90% and improving query performance by nearly 50x.
+• Developed a recommendation engine supporting 6 recommendation types using multi-dimensional scoring and user
+priority inference.
+• Scaled recommendation and telemetry infrastructure using MongoDB indexes across inventories, shopping lists,
+interactions, and telemetry datasets.
+• Implemented prompt versioning and modular chatbot workflows supporting safer iteration and maintainability.
+• Designed a location-aware price estimation feature integrating real-time currency exchange APIs and localization
+logic.
+• CollaboratedwithproductmanagersandseniordevelopersusingGit-basedworkflowstodeliverapplicationfeatures.
+Volvo India Group Pvt. Ltd. Jun 2021 – Dec 2021
+Data Science Intern, AI-ML COE Team
+• Developed a semantic search engine for internal vehicle-parts ordering using NLP-based ranking techniques.
+• Implemented BM25 and fine-tuned BERT-based models achieving over 90% relevance accuracy.
+• Analyzed large text datasets and evaluated model performance using structured validation methods.
+• Contributed to an AI application integrating Azure services across frontend and backend components.
+Projects
+Computer Vision and Human Detection Models
+• Trained a YOLO model for face recognition and developed a custom human detection model using TensorFlow and
+the COCO dataset.
+• Optimized model performance through hyperparameter tuning and dataset fine-tuning.
+Shepherd Center Rehabilitation Analysis – Georgia Institute of Technology
+• Developed regression and neural network models identifying variables impacting pressure ulcers with 80% accuracy.
+• Conducted hypothesis testing, feature importance analysis, and exploratory data analysis on patient datasets.

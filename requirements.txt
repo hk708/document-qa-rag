@@ -1,0 +1,8 @@
+fastapi
+uvicorn[standard]
+python-multipart
+pdfplumber
+python-docx
+sentence-transformers   # text → dense vector embeddings
+faiss-cpu               # vector similarity search (CPU build)
+openai                  # LLM API client for the /ask endpoint

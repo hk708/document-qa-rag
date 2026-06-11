@@ -1,0 +1,27 @@
+# Secrets — never commit these
+.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# FAISS index (large binary, regenerated from uploads)
+data/index/
+
+# Raw uploads (can be re-uploaded)
+data/raw/
+
+# Node
+node_modules/
+frontend/dist/

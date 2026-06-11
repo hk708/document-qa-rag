@@ -1,0 +1,57 @@
+RASHMI NAGPAL
+rrnagpal@yahoo.com	4256147035
+Summary
+Accomplished Senior Product Manager with 8 years of expertise in developing, enhancing, and expanding data products and platforms to drive business growth. Proven ability to lead and motivate teams, fostering significant improvements in operational efficiency and overall performance. Adept at facilitating cross-functional collaboration, fostering trust, and nurturing key stakeholder relationships. Recognized for driving business process enhancements and delivering impactful results.
+Experience
+Senior Product Manager – Microsoft					(Aug 2021 to current)
+Data Intelligence (Infrastructure & Engineering Services IES)
+Own, manage and build data products such as data platform, analytics and ML for the Hybrid (On prem and Azure) Network infrastructure teams to ensure a smooth employee experience.
+Orchestrated the creation of an Infrastructure Data Lakehouse platform, enabling data accessibility in multiple formats (hot, warm, cold) and driving operational agility.
+Implemented comprehensive strategies for platform promotion, including tailored training sessions, roadshows, and summits, resulting in a remarkable 200% year-on-year platform growth.
+Established a robust data quality framework to ensure the integrity and reliability of the platform's data assets.
+Spearheaded the Streaming Telemetry initiative to reduce reliance on third-party solutions, enhancing data sovereignty and control.
+Prioritized customer scenarios and features, aligning product development efforts with strategic objectives and customer needs.
+Delivered advanced analytics and machine learning solutions that are crucial for optimizing operational costs and enhancing the efficiency of the Microsoft network.
+Senior Program Manager – Microsoft (through Capgemini)		(Mar 2016 to July 2021)
+Microsoft Finance, Data & Experiences (FD&E)
+Responsible for driving and managing cross functional programs related to Platform and Infra in FD&E. 
+Developed comprehensive project plans with delivery milestones based on available resources, effectively communicating, and coordinating program objectives across workstreams, serving as the primary point of contact for all business-facing communications.
+Prioritized backlogs and new user stories based on business impact and organizational priorities, facilitating agile deliveries through scrum methodologies.
+Successfully drove hardware and software (Azure) cost savings initiatives across FD&E, realizing savings exceeding $200k.
+Took ownership of telemetry insights for service-level usage, guiding engineering investment priorities and leveraging telemetry data analysis to optimize storage and processing, further driving cost savings.
+Utilized technologies such as Power BI, SQL Server, and Spark (Synapse, Databricks) to understand and profile data, producing detailed artifacts to guide engineering efforts.
+Microsoft Operations (BDSG)
+As a lead within Microsoft Operations (BDSG), oversaw project deliveries and managed teams across multiple global locations including the US, Singapore, and Poland.
+Provided strategic direction by defining goals for team leads and members, conducting performance reviews, and offering coaching to foster career growth.
+Monitored project progress meticulously, addressing obstacles swiftly to ensure timely and successful deliveries in alignment with plans and commitments.
+Implemented a targeted productivity enhancement plan resulting in a 2x increase in efficiency for a team of 25 members, enhancing overall project performance and throughput.
+Acted as a mediator and coach for team leads, effectively managing and resolving conflicts and issues to maintain team cohesion and productivity.
+Pioneered the development and deployment of a knowledge Bot, significantly reducing deal completion time from 90 minutes to just 40 minutes, demonstrating a commitment to innovation and process improvement.
+Microsoft Tax & Trade
+Responsible for Analytics, BI and Engineering efforts related to high volume trade transactions. 
+Developed strategic objectives and provided guidance by defining goals for team leads and members, conducting performance evaluations, and offering mentorship to foster career development.
+Spearheaded automation initiatives leveraging SQL, ASP.Net, Azure, and Machine Learning (ML) technologies to enhance scalability and reduce error rates in transaction screening processes. Achievements include:
+Significantly decreased case disposition time from approximately 6 minutes to less than 2 minutes per case through the implementation of a bot.
+Reduced processing time for automatically releasing low-risk cases from about 5 minutes to less than 1 minute.
+Led the end-to-end development and deployment of product CUBO, ensuring compliance with Service Level Agreements (SLAs) for Microsoft.
+Conducted proof-of-concept (POC) projects for predicting case disposition based on historical data utilizing ML algorithms.
+Created and maintained dashboards using Power BI to monitor productivity, case metrics, and error rates, enabling data-driven decision-making.
+Provided ad hoc analytics and insights crucial for informing key business decisions.
+Established an internal audit process to ensure compliance and mitigate breaches, with findings utilized to drive process improvements and guideline enhancements.
+Microsoft Volume Licensing 
+Volume Licensing is Enterprise Commerce for all MS product launches and is a major contributor of Microsoft’s revenue. 
+Led operations and devops for Data Readiness Team.
+Manage VL data to accelerate product launches for Microsoft customers and partners, handling large volumes (100k SKUs @ 99.9% accuracy).
+Define project charters, technical specs, plans, and measures of success while conducting validations for Pricing, Offers, PFAM, and Product information using Power BI and SQL.
+Introduce automated pre-deployment validation, reducing launch time from 60 to 15 days.
+Implement Machine Learning for failure prediction, leading the tech assessment of ML models and frameworks.
+Regularly communicate project status with stakeholders through created and published status reports.
+Prior Experiences
+Entrepreneur (Hyderabad, India) 							(Jul 2004 to Jun 2006)
+Operations Executive, ABN AMRO Bank (Chennai, India)					(May 1999 to Apr 2000)
+Certifications
+Microsoft Professional Program (MPP) in Data Science				(2019)
+Oracle Certified Professional (OCP)						(1999)
+Education
+MBA, Symbiosis Institute (Pune, India)						(2000 – 2002)
+BA, Ethiraj College, Chennai, India							(1993 – 1996)

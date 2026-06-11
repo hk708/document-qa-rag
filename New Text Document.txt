@@ -1,0 +1,1 @@
+C:\Users\himni\AppData\Roaming\Python\Python313\Scripts\uvicorn.exe app.main:app --reload

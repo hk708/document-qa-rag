@@ -1,0 +1,80 @@
+Redmond, WA, 98053
++1-425-866-5162
+Email: himnishkapoor@outlook.com
+Himnish Kapoor
+US citizen:Eligible to work anywhere in the country
+LinkedIn
+Education
+GEORGIA INSTITUTE OF TECHNOLOGY Atlanta, Georgia
+Degree: Master of Science in Analytics Aug 2022 – July-2024
+Track: Computational Data Analytics
+Birla Institute of Technology & Science, Pilani Hyderabad, Telangana
+4 Year B.E (Hons.) Computer Science Aug 2018 - May 2022
+–
+Skills
+Programming Languages: R, C++, Java, Python, C, HTML, XML, CSS, JavaScript
+Framework: Spark, Hadoop, TensorFlow, Keras, NumPy, Scipy, PuLP, Apache, Flink,Flask
+Databases: MySQL
+Analytical Techniques: Machine Learning, Data clustering, Regression, Simulation, Time series analysis,
+Longitudinal analysis
+Software and Technologies: Android Studios, Git, Simio, Arena
+Experience
+Wipro Limited October 2024 -Present
+Microsoft StarLab- Network Software Engineer
+- Working on the design and development centralized PDU power-utilization monitoring platform by
+implementing SNMP-based telemetry collection and time-series data ingestion to enable reliable monitoring, and
+reducing MTTR.
+- Implemented Network configuration for routing and switching infrastructure, implementing IP schemes,
+VLAN segmentation, and gateway configurations to maintain high availability and enable reliable network
+connectivity.
+- Accelerated resolution of connectivity and access issues by diagnosing Layer 2/3 issues, validating VLANs, IP
+reachability, gateways, and interface health.
+- Conducted end-to-end SSH connectivity troubleshooting across management and routing paths to restore secure
+access.
+Ecohome.one Software Engineering Intern November 2025 - Present
+- Enhanced an AI-powered chatbot application by implementing improved intent handling, structured product
+data extraction, and dynamic navigation logic, increasing response accuracy and usability.
+- Built an incremental AI-based price and carbon estimation scheduler that processes only stale inventory items,
+cutting query time by about 50x and reducing processing volume by about 90% versus full-inventory batch updates.
+- Built a production-ready smart recommendation system that generated personalized suggestions across 6
+recommendation types, backed by multi-dimensional scoring and user priority inference and scaled it with
+MongoDB indexes,across inventories,shopping lists,interactions and telemetry plus a data migration for community
+sharing readiness.
+- Implemented prompt versioning and modular chatbot workflows, enabling safer iteration, feature
+expansion, and long-term maintainability.
+- Designed and implemented a location-aware price estimation feature by integrating real-time currency
+exchange APIs and localization logic to deliver accurate, region-specific cost estimates, ensuring consistent
+pricing and improved user trust across geographies.
+- Used Git-based workflows and collaborated with product managers and senior developers to translate
+business requirements into production-ready application features.
+Redmond, WA, 98053
++1-425-866-5162
+Email: himnishkapoor@outlook.com
+Volvo India Grp Pvt Ltd Data Science Intern June 2021 - December,2021
+- Completed a corporate research internship at the AI-ML COE team at Volvo India Grp Pvt Ltd,
+Bangalore
+Semantic Search Engine
+• Developed a semantic search engine to streamline internal vehicle-parts ordering using NLP-
+based ranking techniques.
+• Implemented BM25 (RankBM25) and fine-tuned BERT-based models, achieving over 90%
+relevance accuracy.
+• Analyzed large text datasets and evaluated model performance using structured validation
+methods.
+Volvo Vision System
+• Contributed to an AI application that integrated Azure services, working on frontend and backend
+components.
+• Designed the application interacting with Azure Blob, Queue, and Table Storage via SDKs.
+Additional projects-
+– Trained a YOLO model for face recognition and developed a custom human detection model using
+TensorFlow libraries and the COCO dataset.
+– Optimized model performance by adjusting hyperparameters and fine-tuning the dataset for
+improved accuracy.
+Shepherd Center-Rehabilitation center Georgia Institute of Technology, Atlanta
+– Analyzed variables and performed individual hypothesis testing to identify links between variables and
+the occurrence of pressure ulcers in patients. Developed a model to determine the most significant
+variables impacting pressure ulcers using regression models and neural networks achieving 80 percent
+accuracy
+– Prepared and manipulated data for machine learning algorithms to determine feature importance and
+significant variables.
+– Conducted exploratory data analysis (EDA) to visualize variable distributions, including patient
+age, type and severity of spinal cord injuries, and follow-up frequency

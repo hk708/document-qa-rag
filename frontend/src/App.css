@@ -1,0 +1,315 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --bg:           #0f1117;
+  --surface:      #1a1d27;
+  --border:       #2e3148;
+  --accent:       #6c63ff;
+  --accent-hover: #574fd6;
+  --text:         #e8eaf0;
+  --text-muted:   #7b7f9a;
+  --success-bg:   rgba(76, 175, 80, 0.12);
+  --success-text: #81c784;
+  --error-bg:     rgba(239, 83, 80, 0.12);
+  --error-text:   #ef9a9a;
+  --radius:       12px;
+  --font:         'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font);
+  min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* ── Layout ──────────────────────────────────────────────── */
+
+.app {
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 2.5rem 1.5rem;
+}
+
+.app-header {
+  text-align: center;
+  margin-bottom: 2.5rem;
+}
+
+.app-header h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  background: linear-gradient(135deg, #6c63ff, #a78bfa);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.subtitle {
+  color: var(--text-muted);
+  margin-top: 0.4rem;
+  font-size: 0.95rem;
+}
+
+.app-main {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+/* ── Panel ───────────────────────────────────────────────── */
+
+.panel {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 1.75rem;
+}
+
+.panel h2 {
+  font-size: 1.05rem;
+  font-weight: 600;
+  margin-bottom: 0.4rem;
+}
+
+.hint {
+  color: var(--text-muted);
+  font-size: 0.85rem;
+  margin-bottom: 1rem;
+}
+
+/* ── Upload ──────────────────────────────────────────────── */
+
+.upload-label input[type='file'] {
+  display: none;
+}
+
+.upload-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.6rem 1.4rem;
+  background: var(--accent);
+  color: #fff;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  font-weight: 500;
+  transition: background 0.2s;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+.upload-btn:hover:not(.disabled) {
+  background: var(--accent-hover);
+}
+
+.upload-btn.disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+/* ── Ask form ────────────────────────────────────────────── */
+
+.ask-form {
+  display: flex;
+  gap: 0.75rem;
+  margin-top: 1rem;
+}
+
+.question-input {
+  flex: 1;
+  padding: 0.65rem 1rem;
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  color: var(--text);
+  font-size: 0.95rem;
+  font-family: var(--font);
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+.question-input:focus {
+  border-color: var(--accent);
+}
+
+.question-input::placeholder {
+  color: var(--text-muted);
+}
+
+.ask-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.65rem 1.5rem;
+  background: var(--accent);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  font-weight: 500;
+  font-family: var(--font);
+  cursor: pointer;
+  transition: background 0.2s;
+  white-space: nowrap;
+}
+
+.ask-btn:hover:not(:disabled) {
+  background: var(--accent-hover);
+}
+
+.ask-btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+/* ── Status messages ─────────────────────────────────────── */
+
+.status-msg {
+  margin-top: 0.75rem;
+  font-size: 0.88rem;
+  padding: 0.55rem 0.85rem;
+  border-radius: 6px;
+  line-height: 1.5;
+}
+
+.status-msg.success {
+  background: var(--success-bg);
+  color: var(--success-text);
+}
+
+.status-msg.error {
+  background: var(--error-bg);
+  color: var(--error-text);
+}
+
+.loading-msg {
+  color: var(--text-muted);
+  font-size: 0.88rem;
+  margin-top: 0.85rem;
+}
+
+/* ── Answer ──────────────────────────────────────────────── */
+
+.answer-block {
+  margin-top: 1.5rem;
+}
+
+.section-label {
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  margin-bottom: 0.6rem;
+}
+
+.answer-text {
+  line-height: 1.75;
+  font-size: 0.97rem;
+  color: var(--text);
+}
+
+/* ── Sources ─────────────────────────────────────────────── */
+
+.sources {
+  margin-top: 1.5rem;
+  border-top: 1px solid var(--border);
+  padding-top: 1.25rem;
+}
+
+.source-count {
+  font-weight: 400;
+  color: var(--text-muted);
+}
+
+.source-card {
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 0.75rem 1rem;
+  margin-bottom: 0.5rem;
+  cursor: pointer;
+  transition: border-color 0.2s, background 0.2s;
+}
+
+.source-card:hover,
+.source-card.expanded {
+  border-color: var(--accent);
+  background: rgba(108, 99, 255, 0.05);
+}
+
+.source-header {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  font-size: 0.88rem;
+}
+
+.source-rank {
+  font-weight: 700;
+  color: var(--accent);
+  min-width: 1.5rem;
+}
+
+.source-doc {
+  font-weight: 500;
+  flex: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.source-meta {
+  color: var(--text-muted);
+  font-size: 0.8rem;
+  white-space: nowrap;
+}
+
+.source-toggle {
+  color: var(--text-muted);
+  font-size: 0.75rem;
+}
+
+.source-text {
+  margin-top: 0.75rem;
+  font-size: 0.87rem;
+  line-height: 1.65;
+  color: var(--text-muted);
+  border-top: 1px solid var(--border);
+  padding-top: 0.75rem;
+}
+
+/* ── Spinner ─────────────────────────────────────────────── */
+
+.spinner {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  border-top-color: #fff;
+  border-radius: 50%;
+  animation: spin 0.7s linear infinite;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+/* ── Responsive ──────────────────────────────────────────── */
+
+@media (max-width: 600px) {
+  .ask-form {
+    flex-direction: column;
+  }
+
+  .ask-btn {
+    width: 100%;
+    justify-content: center;
+  }
+}

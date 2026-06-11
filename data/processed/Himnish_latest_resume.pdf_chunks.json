@@ -1,0 +1,52 @@
+[
+  {
+    "chunk_index": 0,
+    "chunk_id": "0c5945f6-2658-4152-8a60-01e07f7cb66e",
+    "text": "Redmond, WA, 98053\n+1-425-866-5162\nEmail: himnishkapoor@outlook.com\nHimnish Kapoor\nUS citizen:Eligible to work anywhere in the country\nLinkedIn\nEducation\nGEORGIA INSTITUTE OF TECHNOLOGY Atlanta, Georgia\nDegree: Master of Science in Analytics Aug 2022 \u2013 July-2024\nTrack: Computational Data Analytics\nBirla Institute of Technology & Science, Pilani Hyderabad, Telangana\n4 Year B.E (Hons.) Computer Science Aug 2018 - May 2022\n\u2013\nSkills\nProgramming Languages: R, C++, Java, Python, C, HTML, XML, CSS, JavaScript\nFramework: Spark, Hadoop, TensorFlow, Keras, NumPy, Scipy, PuLP, Apache, Flink,Flask\nDatabases: MySQL\nAnalytical Techniques: Machine Learning, Data clustering, Regression, Simulation, Time series analysis,\nLongitudinal analysis\nSoftware and Technologies: Android Studios, Git, Simio, Arena\nExperience\nWipro Limited October 2024 -Present\nMicrosoft StarLab- Network Software Engineer\n- Working on the design and development centralized PDU power-utilization monitoring platform by\nimplementing SNMP-based telemetry collection and time-series data ingestion to enable reliable monitoring, and\nreducing MTTR."
+  },
+  {
+    "chunk_index": 1,
+    "chunk_id": "c5de6a1d-661a-4e82-a429-bb5f5ef8e05c",
+    "text": "SNMP-based telemetry collection and time-series data ingestion to enable reliable monitoring, and\nreducing MTTR. - Implemented Network configuration for routing and switching infrastructure, implementing IP schemes,\nVLAN segmentation, and gateway configurations to maintain high availability and enable reliable network\nconnectivity. - Accelerated resolution of connectivity and access issues by diagnosing Layer 2/3 issues, validating VLANs, IP\nreachability, gateways, and interface health. - Conducted end-to-end SSH connectivity troubleshooting across management and routing paths to restore secure\naccess."
+  },
+  {
+    "chunk_index": 2,
+    "chunk_id": "21c042e1-f223-463b-9878-1b6afe8c0036",
+    "text": "- Conducted end-to-end SSH connectivity troubleshooting across management and routing paths to restore secure\naccess. Ecohome.one Software Engineering Intern November 2025 - Present\n- Enhanced an AI-powered chatbot application by implementing improved intent handling, structured product\ndata extraction, and dynamic navigation logic, increasing response accuracy and usability. - Built an incremental AI-based price and carbon estimation scheduler that processes only stale inventory items,\ncutting query time by about 50x and reducing processing volume by about 90% versus full-inventory batch updates."
+  },
+  {
+    "chunk_index": 3,
+    "chunk_id": "2d1bb53b-e22a-481d-9dc3-4fcd71d99be6",
+    "text": "items,\ncutting query time by about 50x and reducing processing volume by about 90% versus full-inventory batch updates. - Built a production-ready smart recommendation system that generated personalized suggestions across 6\nrecommendation types, backed by multi-dimensional scoring and user priority inference and scaled it with\nMongoDB indexes,across inventories,shopping lists,interactions and telemetry plus a data migration for community\nsharing readiness. - Implemented prompt versioning and modular chatbot workflows, enabling safer iteration, feature\nexpansion, and long-term maintainability."
+  },
+  {
+    "chunk_index": 4,
+    "chunk_id": "7ee404a9-eb05-463d-8bcb-53e827f06231",
+    "text": "versioning and modular chatbot workflows, enabling safer iteration, feature\nexpansion, and long-term maintainability. - Designed and implemented a location-aware price estimation feature by integrating real-time currency\nexchange APIs and localization logic to deliver accurate, region-specific cost estimates, ensuring consistent\npricing and improved user trust across geographies. - Used Git-based workflows and collaborated with product managers and senior developers to translate\nbusiness requirements into production-ready application features."
+  },
+  {
+    "chunk_index": 5,
+    "chunk_id": "2c12a203-e197-42b0-8633-d0a67248f841",
+    "text": "product managers and senior developers to translate\nbusiness requirements into production-ready application features. Redmond, WA, 98053\n+1-425-866-5162\nEmail: himnishkapoor@outlook.com\nVolvo India Grp Pvt Ltd Data Science Intern June 2021 - December,2021\n- Completed a corporate research internship at the AI-ML COE team at Volvo India Grp Pvt Ltd,\nBangalore\nSemantic Search Engine\n\u2022 Developed a semantic search engine to streamline internal vehicle-parts ordering using NLP-\nbased ranking techniques. \u2022 Implemented BM25 (RankBM25) and fine-tuned BERT-based models, achieving over 90%\nrelevance accuracy."
+  },
+  {
+    "chunk_index": 6,
+    "chunk_id": "1d07a06c-5983-4458-9f79-71782a789993",
+    "text": "techniques. \u2022 Implemented BM25 (RankBM25) and fine-tuned BERT-based models, achieving over 90%\nrelevance accuracy. \u2022 Analyzed large text datasets and evaluated model performance using structured validation\nmethods. Volvo Vision System\n\u2022 Contributed to an AI application that integrated Azure services, working on frontend and backend\ncomponents. \u2022 Designed the application interacting with Azure Blob, Queue, and Table Storage via SDKs. Additional projects-\n\u2013 Trained a YOLO model for face recognition and developed a custom human detection model using\nTensorFlow libraries and the COCO dataset."
+  },
+  {
+    "chunk_index": 7,
+    "chunk_id": "a94fa2cd-2d13-48c0-ae8f-07b34e600fbb",
+    "text": "for face recognition and developed a custom human detection model using\nTensorFlow libraries and the COCO dataset. \u2013 Optimized model performance by adjusting hyperparameters and fine-tuning the dataset for\nimproved accuracy. Shepherd Center-Rehabilitation center Georgia Institute of Technology, Atlanta\n\u2013 Analyzed variables and performed individual hypothesis testing to identify links between variables and\nthe occurrence of pressure ulcers in patients."
+  },
+  {
+    "chunk_index": 8,
+    "chunk_id": "2ffc92ad-0f44-4a86-aba9-221352c4a73d",
+    "text": "individual hypothesis testing to identify links between variables and\nthe occurrence of pressure ulcers in patients. Developed a model to determine the most significant\nvariables impacting pressure ulcers using regression models and neural networks achieving 80 percent\naccuracy\n\u2013 Prepared and manipulated data for machine learning algorithms to determine feature importance and\nsignificant variables."
+  },
+  {
+    "chunk_index": 9,
+    "chunk_id": "542a483f-c5af-4e45-b14a-49d3ee57b844",
+    "text": "and manipulated data for machine learning algorithms to determine feature importance and\nsignificant variables. \u2013 Conducted exploratory data analysis (EDA) to visualize variable distributions, including patient\nage, type and severity of spinal cord injuries, and follow-up frequency\nRedmond, WA, 98053\n+1-425-866-5162\nEmail: himnishkapoor@outlook.com\nRedmond, WA, 98053\n+1-425-866-5162\nEmail: himnishkapoor@outlook.com"
+  }
+]
