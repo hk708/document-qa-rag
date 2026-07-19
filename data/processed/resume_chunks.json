@@ -1,7 +1,7 @@
 [
   {
     "doc_id": "resume",
-    "chunk_id": "adbbb3ce-b0a2-412f-816e-85c0d21158da",
+    "chunk_id": "862b1832-aa3f-4621-a28c-919cf895a237",
     "chunk_index": 0,
     "text": "Himnish Kapoor\nRedmond, WA 98053 | +1-425-866-5162 | himnishkapoor@outlook.com\nUS Citizen \u2013 Eligible to work anywhere in the United States\nLinkedIn\nProfessional Summary\nSoftware Engineer and Analytics graduate with experience building scalable AI-powered applications, network infras-\ntructure solutions, and data-driven systems. Skilled in backend development, machine learning, SNMP telemetry,\ndistributed systems, and recommendation engines, with hands-on experience delivering production-ready features\nacross cloud, networking, and AI platforms.",
     "embedding": [
@@ -393,7 +393,7 @@
   },
   {
     "doc_id": "resume",
-    "chunk_id": "136495ab-4cbd-4598-85ac-77399315f151",
+    "chunk_id": "c7d754e8-65e1-4358-a661-f372665bb1c5",
     "chunk_index": 1,
     "text": "engines, with hands-on experience delivering production-ready features\nacross cloud, networking, and AI platforms. Education\nGeorgia Institute of Technology Atlanta, Georgia\nMaster of Science in Analytics (Computational Data Analytics) Aug 2022 \u2013 Jul 2024\nBirla Institute of Technology and Science, Pilani Hyderabad, Telangana\nB.E.",
     "embedding": [
@@ -785,7 +785,7 @@
   },
   {
     "doc_id": "resume",
-    "chunk_id": "b1deec6f-3745-4206-9ba6-d5638e1e6347",
+    "chunk_id": "7c424a42-a834-47a2-af71-bb9cf3b6f3f2",
     "chunk_index": 2,
     "text": "Data Analytics) Aug 2022 \u2013 Jul 2024\nBirla Institute of Technology and Science, Pilani Hyderabad, Telangana\nB.E. (Hons.) in Computer Science Aug 2018 \u2013 May 2022\nSkills\nProgramming Languages: Python, Java, C++, C, R, JavaScript, HTML, CSS, XML\nFrameworks/Libraries: Spark, Hadoop, TensorFlow, Keras, NumPy, SciPy, PuLP, Apache Flink, Flask\nDatabases: MySQL, MongoDB\nAnalytical Techniques: Machine Learning, Data Clustering, Regression, Simulation, Time Series Analysis, Longi-\ntudinal Analysis\nSoftware/Technologies: Git, Android Studio, Simio, Arena, SNMP\nExperience\nWipro Limited Oct 2024 \u2013 Present\nMicrosoft StarLab \u2013 Network Software Engineer\n\u2022 Designed and developed a centralized PDU power-utilization monitoring platform using SNMP telemetry collection\nand time-series data ingestion to improve monitoring and reduce MTTR.",
     "embedding": [
@@ -1177,7 +1177,7 @@
   },
   {
     "doc_id": "resume",
-    "chunk_id": "2d3f0296-ef61-456d-b733-c8c094ce76c1",
+    "chunk_id": "460a19f3-4ea0-4d9f-97a6-9d67099978f1",
     "chunk_index": 3,
     "text": "platform using SNMP telemetry collection\nand time-series data ingestion to improve monitoring and reduce MTTR. \u2022 Implemented routing and switching configurations including IP schemes, VLAN segmentation, and gateway config-\nurations for reliable network connectivity. \u2022 Diagnosed Layer 2/3 networking issues involving VLANs, IP reachability, gateways, and interface health. \u2022 Conducted end-to-end SSH connectivity troubleshooting across management and routing paths. Ecohome.one Nov 2025 \u2013 Present\nSoftware Engineering Intern\n\u2022 EnhancedanAI-poweredchatbotapplicationthroughimprovedintenthandling,structuredproductdataextraction,\nand dynamic navigation logic.",
     "embedding": [
@@ -1569,7 +1569,7 @@
   },
   {
     "doc_id": "resume",
-    "chunk_id": "fae6ad1c-a609-4b6d-a0d7-4ecbede6a08e",
+    "chunk_id": "2b8274f6-0d33-446c-a1f4-65be60a67f83",
     "chunk_index": 4,
     "text": "dynamic navigation logic. \u2022 Built an incremental AI-based price and carbon estimation scheduler reducing processing volume by approximately\n90% and improving query performance by nearly 50x. \u2022 Developed a recommendation engine supporting 6 recommendation types using multi-dimensional scoring and user\npriority inference. \u2022 Scaled recommendation and telemetry infrastructure using MongoDB indexes across inventories, shopping lists,\ninteractions, and telemetry datasets. \u2022 Implemented prompt versioning and modular chatbot workflows supporting safer iteration and maintainability.",
     "embedding": [
@@ -1961,7 +1961,7 @@
   },
   {
     "doc_id": "resume",
-    "chunk_id": "2e446d94-017f-4467-a45c-5fb6ddcb3c65",
+    "chunk_id": "1728ca31-4b3d-4e2c-acfa-5dd79a8e08bb",
     "chunk_index": 5,
     "text": "datasets. \u2022 Implemented prompt versioning and modular chatbot workflows supporting safer iteration and maintainability. \u2022 Designed a location-aware price estimation feature integrating real-time currency exchange APIs and localization\nlogic. \u2022 CollaboratedwithproductmanagersandseniordevelopersusingGit-basedworkflowstodeliverapplicationfeatures. Volvo India Group Pvt. Ltd. Jun 2021 \u2013 Dec 2021\nData Science Intern, AI-ML COE Team\n\u2022 Developed a semantic search engine for internal vehicle-parts ordering using NLP-based ranking techniques. \u2022 Implemented BM25 and fine-tuned BERT-based models achieving over 90% relevance accuracy.",
     "embedding": [
@@ -2353,7 +2353,7 @@
   },
   {
     "doc_id": "resume",
-    "chunk_id": "107c0554-360c-40bd-acb6-105480c0ef1a",
+    "chunk_id": "d5eb4e0a-a79d-4ed5-9108-5add471c2c8b",
     "chunk_index": 6,
     "text": "ranking techniques. \u2022 Implemented BM25 and fine-tuned BERT-based models achieving over 90% relevance accuracy. \u2022 Analyzed large text datasets and evaluated model performance using structured validation methods. \u2022 Contributed to an AI application integrating Azure services across frontend and backend components. Projects\nComputer Vision and Human Detection Models\n\u2022 Trained a YOLO model for face recognition and developed a custom human detection model using TensorFlow and\nthe COCO dataset. \u2022 Optimized model performance through hyperparameter tuning and dataset fine-tuning.",
     "embedding": [
@@ -2745,7 +2745,7 @@
   },
   {
     "doc_id": "resume",
-    "chunk_id": "12a16843-e154-441b-a016-e4c71a4d1f1e",
+    "chunk_id": "8667b326-d1bc-455b-8d9a-7e3ff061a676",
     "chunk_index": 7,
     "text": "TensorFlow and\nthe COCO dataset. \u2022 Optimized model performance through hyperparameter tuning and dataset fine-tuning. Shepherd Center Rehabilitation Analysis \u2013 Georgia Institute of Technology\n\u2022 Developed regression and neural network models identifying variables impacting pressure ulcers with 80% accuracy. \u2022 Conducted hypothesis testing, feature importance analysis, and exploratory data analysis on patient datasets.",
     "embedding": [

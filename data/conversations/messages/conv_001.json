@@ -1,0 +1,429 @@
+[
+  {
+    "role": "user",
+    "content": "What is BERT?",
+    "timestamp": "2026-07-16T04:02:26.970267+00:00"
+  },
+  {
+    "role": "assistant",
+    "content": "BERT stands for Bidirectional Encoder Representations from Transformers. It is a transformer-based model developed by Google and is pre-trained on a large corpus of text. BERT utilizes a bidirectional encoder architecture and is trained using a technique called Masked Language Modeling. This allows BERT to read text in both directions simultaneously, making it particularly effective for understanding context. \n\nBERT is especially strong in various natural language processing tasks, including:\n\n- Question answering\n- Text classification\n- Named entity recognition\n\nIn summary, BERT is designed to excel in understanding tasks due to its bidirectional nature and encoder-only architecture.",
+    "timestamp": "2026-07-16T04:02:27.007449+00:00",
+    "sources": [
+      {
+        "rank": 1,
+        "score": 1.0556247234344482,
+        "doc_id": "sample_ai_notes",
+        "chunk_index": 3,
+        "text": "neurons using a technique called backpropagation combined with an optimization algorithm such as gradient descent. Transformers and Language Models\n\nThe transformer architecture was introduced in the paper \"Attention Is All You Need\" in 2017. It replaced recurrent neural networks as the dominant architecture for natural language processing tasks. BERT stands for Bidirectional Encoder Representations from Transformers. It was developed by Google and pre-trained on a large corpus of text. BERT reads text in both directions simultaneously, making it effective for understanding context. GPT stands for Generative Pre-trained Transformer."
+      },
+      {
+        "rank": 2,
+        "score": 1.1617214679718018,
+        "doc_id": "neural_networks_deep_learning_test_document",
+        "chunk_index": 4,
+        "text": "recurrent neural networks, transformers process all tokens\nsimultaneously using a mechanism called self-attention. Advantages of transformers:\n\n-   Parallel computation\n-   Better long-range dependency modeling\n-   Improved scalability\n-   State-of-the-art performance in NLP\n\nPopular transformer models include:\n\n-   BERT\n-   GPT\n-   T5\n-   Llama\n\nBERT\n\nBERT stands for Bidirectional Encoder Representations from Transformers. It uses a bidirectional encoder architecture and is trained using Masked\nLanguage Modeling. BERT is particularly effective for:\n\n-   Question answering\n-   Text classification\n-   Named entity recognition\n\nGPT\n\nGPT stands for Generative Pre-trained Transformer."
+      },
+      {
+        "rank": 3,
+        "score": 1.2426774501800537,
+        "doc_id": "neural_networks_deep_learning_test_document",
+        "chunk_index": 5,
+        "text": "answering\n-   Text classification\n-   Named entity recognition\n\nGPT\n\nGPT stands for Generative Pre-trained Transformer. GPT uses a decoder-only architecture. Unlike BERT, GPT predicts the next token in a sequence and is optimized\nfor text generation. Applications include:\n\n-   Chatbots\n-   Content generation\n-   Coding assistants\n-   Summarization\n\nComparison Between BERT and GPT\n\nBERT: - Bidirectional - Encoder-only - Strong for understanding tasks\n\nGPT: - Autoregressive - Decoder-only - Strong for text generation\n\nAlthough both are transformer-based models, they are optimized for\ndifferent objectives."
+      },
+      {
+        "rank": 4,
+        "score": 1.3331406116485596,
+        "doc_id": "resume",
+        "chunk_index": 6,
+        "text": "ranking techniques. \u2022 Implemented BM25 and fine-tuned BERT-based models achieving over 90% relevance accuracy. \u2022 Analyzed large text datasets and evaluated model performance using structured validation methods. \u2022 Contributed to an AI application integrating Azure services across frontend and backend components. Projects\nComputer Vision and Human Detection Models\n\u2022 Trained a YOLO model for face recognition and developed a custom human detection model using TensorFlow and\nthe COCO dataset. \u2022 Optimized model performance through hyperparameter tuning and dataset fine-tuning."
+      },
+      {
+        "rank": 5,
+        "score": 1.3331406116485596,
+        "doc_id": "resume",
+        "chunk_index": 6,
+        "text": "ranking techniques. \u2022 Implemented BM25 and fine-tuned BERT-based models achieving over 90% relevance accuracy. \u2022 Analyzed large text datasets and evaluated model performance using structured validation methods. \u2022 Contributed to an AI application integrating Azure services across frontend and backend components. Projects\nComputer Vision and Human Detection Models\n\u2022 Trained a YOLO model for face recognition and developed a custom human detection model using TensorFlow and\nthe COCO dataset. \u2022 Optimized model performance through hyperparameter tuning and dataset fine-tuning."
+      },
+      {
+        "rank": 6,
+        "score": 1.352201223373413,
+        "doc_id": "sample_ai_notes",
+        "chunk_index": 4,
+        "text": "simultaneously, making it effective for understanding context. GPT stands for Generative Pre-trained Transformer. Unlike BERT, GPT is a decoder-only model trained to predict the next word in a sequence. GPT models are widely used for text generation tasks. Retrieval-Augmented Generation (RAG)\n\nRAG is a technique that combines a retrieval system with a language model. Instead of relying only on knowledge stored in the model weights, RAG retrieves relevant documents from an external knowledge base and passes them as context to the language model. The retrieval step typically uses dense vector embeddings."
+      },
+      {
+        "rank": 7,
+        "score": 1.3828191757202148,
+        "doc_id": "Himnish_latest_resume (1)",
+        "chunk_index": 6,
+        "text": "techniques. \u2022 Implemented BM25 (RankBM25) and fine-tuned BERT-based models, achieving over 90%\nrelevance accuracy. \u2022 Analyzed large text datasets and evaluated model performance using structured validation\nmethods. Volvo Vision System\n\u2022 Contributed to an AI application that integrated Azure services, working on frontend and backend\ncomponents. \u2022 Designed the application interacting with Azure Blob, Queue, and Table Storage via SDKs. Additional projects-\n\u2013 Trained a YOLO model for face recognition and developed a custom human detection model using\nTensorFlow libraries and the COCO dataset."
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": "How is it different from GPT?",
+    "timestamp": "2026-07-16T04:03:33.493314+00:00"
+  },
+  {
+    "role": "assistant",
+    "content": "BERT and GPT are both transformer-based models, but they differ significantly in their architecture and objectives. Here\u2019s a detailed comparison based on the context provided:\n\n### 1. **Architecture**\n   - **BERT**: \n     - **Type**: Bidirectional\n     - **Architecture**: Encoder-only\n     - **Functionality**: BERT reads text in both directions simultaneously, which enhances its ability to understand context.\n   - **GPT**: \n     - **Type**: Autoregressive\n     - **Architecture**: Decoder-only\n     - **Functionality**: GPT predicts the next token in a sequence, focusing on generating text rather than understanding it.\n\n### 2. **Training Objective**\n   - **BERT**: \n     - Trained using a technique called **Masked Language Modeling**, which allows it to learn from the context of words in both directions.\n   - **GPT**: \n     - Optimized for text generation by predicting the next word in a sequence, which is a unidirectional approach.\n\n### 3. **Strengths and Applications**\n   - **BERT**: \n     - Particularly effective for understanding tasks such as:\n       - Question answering\n       - Text classification\n       - Named entity recognition\n   - **GPT**: \n     - Strong for text generation tasks, with applications including:\n       - Chatbots\n       - Content generation\n       - Coding assistants\n       - Summarization\n\n### 4. **Summary of Differences**\n   - **BERT** is designed for understanding tasks due to its bidirectional nature and encoder-only architecture, while **GPT** is focused on generating text with its autoregressive, decoder-only model.\n\nIn summary, the key differences lie in their architecture (BERT is bidirectional and encoder-only, while GPT is autoregressive and decoder-only), their training objectives (masked language modeling for BERT vs. next-token prediction for GPT), and their respective strengths in natural language processing tasks.",
+    "timestamp": "2026-07-16T04:03:33.515169+00:00",
+    "sources": [
+      {
+        "rank": 1,
+        "score": 1.0302495956420898,
+        "doc_id": "sample_ai_notes",
+        "chunk_index": 4,
+        "text": "simultaneously, making it effective for understanding context. GPT stands for Generative Pre-trained Transformer. Unlike BERT, GPT is a decoder-only model trained to predict the next word in a sequence. GPT models are widely used for text generation tasks. Retrieval-Augmented Generation (RAG)\n\nRAG is a technique that combines a retrieval system with a language model. Instead of relying only on knowledge stored in the model weights, RAG retrieves relevant documents from an external knowledge base and passes them as context to the language model. The retrieval step typically uses dense vector embeddings."
+      },
+      {
+        "rank": 2,
+        "score": 1.0534658432006836,
+        "doc_id": "neural_networks_deep_learning_test_document",
+        "chunk_index": 5,
+        "text": "answering\n-   Text classification\n-   Named entity recognition\n\nGPT\n\nGPT stands for Generative Pre-trained Transformer. GPT uses a decoder-only architecture. Unlike BERT, GPT predicts the next token in a sequence and is optimized\nfor text generation. Applications include:\n\n-   Chatbots\n-   Content generation\n-   Coding assistants\n-   Summarization\n\nComparison Between BERT and GPT\n\nBERT: - Bidirectional - Encoder-only - Strong for understanding tasks\n\nGPT: - Autoregressive - Decoder-only - Strong for text generation\n\nAlthough both are transformer-based models, they are optimized for\ndifferent objectives."
+      },
+      {
+        "rank": 3,
+        "score": 1.4709211587905884,
+        "doc_id": "sample_ai_notes",
+        "chunk_index": 3,
+        "text": "neurons using a technique called backpropagation combined with an optimization algorithm such as gradient descent. Transformers and Language Models\n\nThe transformer architecture was introduced in the paper \"Attention Is All You Need\" in 2017. It replaced recurrent neural networks as the dominant architecture for natural language processing tasks. BERT stands for Bidirectional Encoder Representations from Transformers. It was developed by Google and pre-trained on a large corpus of text. BERT reads text in both directions simultaneously, making it effective for understanding context. GPT stands for Generative Pre-trained Transformer."
+      },
+      {
+        "rank": 4,
+        "score": 1.4929771423339844,
+        "doc_id": "neural_networks_deep_learning_test_document",
+        "chunk_index": 4,
+        "text": "recurrent neural networks, transformers process all tokens\nsimultaneously using a mechanism called self-attention. Advantages of transformers:\n\n-   Parallel computation\n-   Better long-range dependency modeling\n-   Improved scalability\n-   State-of-the-art performance in NLP\n\nPopular transformer models include:\n\n-   BERT\n-   GPT\n-   T5\n-   Llama\n\nBERT\n\nBERT stands for Bidirectional Encoder Representations from Transformers. It uses a bidirectional encoder architecture and is trained using Masked\nLanguage Modeling. BERT is particularly effective for:\n\n-   Question answering\n-   Text classification\n-   Named entity recognition\n\nGPT\n\nGPT stands for Generative Pre-trained Transformer."
+      },
+      {
+        "rank": 5,
+        "score": 1.5697853565216064,
+        "doc_id": "Rashmi_Nagpal_PdM",
+        "chunk_index": 5,
+        "text": "drove hardware and software (Azure) cost savings initiatives across FD&E, realizing savings exceeding $200k. Took ownership of telemetry insights for service-level usage, guiding engineering investment priorities and leveraging telemetry data analysis to optimize storage and processing, further driving cost savings. Utilized technologies such as Power BI, SQL Server, and Spark (Synapse, Databricks) to understand and profile data, producing detailed artifacts to guide engineering efforts. Microsoft Operations (BDSG)\nAs a lead within Microsoft Operations (BDSG), oversaw project deliveries and managed teams across multiple global locations including the US, Singapore, and Poland."
+      },
+      {
+        "rank": 6,
+        "score": 1.5888489484786987,
+        "doc_id": "Rashmi_Nagpal_PdM",
+        "chunk_index": 3,
+        "text": "customer scenarios and features, aligning product development efforts with strategic objectives and customer needs. Delivered advanced analytics and machine learning solutions that are crucial for optimizing operational costs and enhancing the efficiency of the Microsoft network. Senior Program Manager \u2013 Microsoft (through Capgemini)\t\t(Mar 2016 to July 2021)\nMicrosoft Finance, Data & Experiences (FD&E)\nResponsible for driving and managing cross functional programs related to Platform and Infra in FD&E."
+      },
+      {
+        "rank": 7,
+        "score": 1.6090826988220215,
+        "doc_id": "Himnish_latest_resume (1)",
+        "chunk_index": 0,
+        "text": "Redmond, WA, 98053\n+1-425-866-5162\nEmail: himnishkapoor@outlook.com\nHimnish Kapoor\nUS citizen:Eligible to work anywhere in the country\nLinkedIn\nEducation\nGEORGIA INSTITUTE OF TECHNOLOGY Atlanta, Georgia\nDegree: Master of Science in Analytics Aug 2022 \u2013 July-2024\nTrack: Computational Data Analytics\nBirla Institute of Technology & Science, Pilani Hyderabad, Telangana\n4 Year B.E (Hons.) Computer Science Aug 2018 - May 2022\n\u2013\nSkills\nProgramming Languages: R, C++, Java, Python, C, HTML, XML, CSS, JavaScript\nFramework: Spark, Hadoop, TensorFlow, Keras, NumPy, Scipy, PuLP, Apache, Flink,Flask\nDatabases: MySQL\nAnalytical Techniques: Machine Learning, Data clustering, Regression, Simulation, Time series analysis,\nLongitudinal analysis\nSoftware and Technologies: Android Studios, Git, Simio, Arena\nExperience\nWipro Limited October 2024 -Present\nMicrosoft StarLab- Network Software Engineer\n- Working on the design and development centralized PDU power-utilization monitoring platform by\nimplementing SNMP-based telemetry collection and time-series data ingestion to enable reliable monitoring, and\nreducing MTTR."
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": "Which one is better for text generation?",
+    "timestamp": "2026-07-16T04:08:01.590150+00:00"
+  },
+  {
+    "role": "assistant",
+    "content": "Based on the context provided, **GPT** is better for text generation. \n\n### Evidence from the Context:\n1. **Architecture**: GPT uses a **decoder-only architecture** and is specifically designed to **predict the next token in a sequence**, which is a key aspect of text generation. In contrast, BERT is an **encoder-only model** optimized for understanding tasks.\n   \n2. **Training Objective**: GPT is **optimized for text generation**, while BERT is trained using **Masked Language Modeling**, which focuses on understanding context rather than generating text.\n\n3. **Applications**: The context lists several applications for GPT that are directly related to text generation, including:\n   - **Chatbots**\n   - **Content generation**\n   - **Coding assistants**\n   - **Summarization**\n\nIn summary, GPT's autoregressive nature and focus on predicting the next word make it more suitable for text generation tasks compared to BERT, which excels in understanding tasks.",
+    "timestamp": "2026-07-16T04:08:01.623889+00:00",
+    "sources": [
+      {
+        "rank": 1,
+        "score": 0.9001022577285767,
+        "doc_id": "neural_networks_deep_learning_test_document",
+        "chunk_index": 6,
+        "text": "- Strong for text generation\n\nAlthough both are transformer-based models, they are optimized for\ndifferent objectives. Limitations of Deep Learning\n\nDespite its success, deep learning has limitations:\n\n-   Requires large amounts of data\n-   High computational cost\n-   Difficult to interpret\n-   Sensitive to biases in training data\n-   Expensive to train large models\n\nResearchers continue to explore methods to improve efficiency,\ninterpretability, and fairness in AI systems."
+      },
+      {
+        "rank": 2,
+        "score": 1.1908049583435059,
+        "doc_id": "neural_networks_deep_learning_test_document",
+        "chunk_index": 5,
+        "text": "answering\n-   Text classification\n-   Named entity recognition\n\nGPT\n\nGPT stands for Generative Pre-trained Transformer. GPT uses a decoder-only architecture. Unlike BERT, GPT predicts the next token in a sequence and is optimized\nfor text generation. Applications include:\n\n-   Chatbots\n-   Content generation\n-   Coding assistants\n-   Summarization\n\nComparison Between BERT and GPT\n\nBERT: - Bidirectional - Encoder-only - Strong for understanding tasks\n\nGPT: - Autoregressive - Decoder-only - Strong for text generation\n\nAlthough both are transformer-based models, they are optimized for\ndifferent objectives."
+      },
+      {
+        "rank": 3,
+        "score": 1.255578875541687,
+        "doc_id": "sample_ai_notes",
+        "chunk_index": 4,
+        "text": "simultaneously, making it effective for understanding context. GPT stands for Generative Pre-trained Transformer. Unlike BERT, GPT is a decoder-only model trained to predict the next word in a sequence. GPT models are widely used for text generation tasks. Retrieval-Augmented Generation (RAG)\n\nRAG is a technique that combines a retrieval system with a language model. Instead of relying only on knowledge stored in the model weights, RAG retrieves relevant documents from an external knowledge base and passes them as context to the language model. The retrieval step typically uses dense vector embeddings."
+      },
+      {
+        "rank": 4,
+        "score": 1.366969108581543,
+        "doc_id": "sample_ai_notes",
+        "chunk_index": 5,
+        "text": "base and passes them as context to the language model. The retrieval step typically uses dense vector embeddings. Each document is encoded into a numerical vector, and similar documents have vectors that are close together in vector space. FAISS is a popular library for storing and searching these vectors efficiently. The advantage of RAG over pure language model generation is that answers are grounded in actual retrieved content, reducing hallucination and allowing the system to answer questions about private or recent documents that were not part of the model's training data. Vector Databases\n\nA vector database stores high-dimensional numerical vectors and allows fast similarity search."
+      },
+      {
+        "rank": 5,
+        "score": 1.4073152542114258,
+        "doc_id": "neural_networks_deep_learning_test_document",
+        "chunk_index": 4,
+        "text": "recurrent neural networks, transformers process all tokens\nsimultaneously using a mechanism called self-attention. Advantages of transformers:\n\n-   Parallel computation\n-   Better long-range dependency modeling\n-   Improved scalability\n-   State-of-the-art performance in NLP\n\nPopular transformer models include:\n\n-   BERT\n-   GPT\n-   T5\n-   Llama\n\nBERT\n\nBERT stands for Bidirectional Encoder Representations from Transformers. It uses a bidirectional encoder architecture and is trained using Masked\nLanguage Modeling. BERT is particularly effective for:\n\n-   Question answering\n-   Text classification\n-   Named entity recognition\n\nGPT\n\nGPT stands for Generative Pre-trained Transformer."
+      },
+      {
+        "rank": 6,
+        "score": 1.4466407299041748,
+        "doc_id": "sample_ai_notes",
+        "chunk_index": 3,
+        "text": "neurons using a technique called backpropagation combined with an optimization algorithm such as gradient descent. Transformers and Language Models\n\nThe transformer architecture was introduced in the paper \"Attention Is All You Need\" in 2017. It replaced recurrent neural networks as the dominant architecture for natural language processing tasks. BERT stands for Bidirectional Encoder Representations from Transformers. It was developed by Google and pre-trained on a large corpus of text. BERT reads text in both directions simultaneously, making it effective for understanding context. GPT stands for Generative Pre-trained Transformer."
+      },
+      {
+        "rank": 7,
+        "score": 1.588682770729065,
+        "doc_id": "Himnish_latest_resume (1)",
+        "chunk_index": 3,
+        "text": "items,\ncutting query time by about 50x and reducing processing volume by about 90% versus full-inventory batch updates. - Built a production-ready smart recommendation system that generated personalized suggestions across 6\nrecommendation types, backed by multi-dimensional scoring and user priority inference and scaled it with\nMongoDB indexes,across inventories,shopping lists,interactions and telemetry plus a data migration for community\nsharing readiness. - Implemented prompt versioning and modular chatbot workflows, enabling safer iteration, feature\nexpansion, and long-term maintainability."
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": "What is FAISS and why is it used in RAG?",
+    "timestamp": "2026-07-16T04:08:55.578082+00:00"
+  },
+  {
+    "role": "assistant",
+    "content": "FAISS, which stands for Facebook AI Similarity Search, is a library developed by Meta that is used for storing and searching high-dimensional numerical vectors efficiently. In the context of Retrieval-Augmented Generation (RAG), FAISS plays a crucial role in the retrieval step of the process.\n\n### Purpose of FAISS in RAG:\n1. **Efficient Storage and Search**: FAISS allows for the efficient storage of encoded documents as numerical vectors. This is important because RAG relies on retrieving relevant documents from an external knowledge base to provide context to the language model.\n\n2. **Similarity Search**: When a user poses a question, FAISS enables the system to quickly find stored vectors that are most similar to the query vector. This is essential for grounding the answers in actual retrieved content, which helps reduce hallucination and improves the accuracy of the responses.\n\n### Summary:\nFAISS is a popular library for vector storage and similarity search, making it a valuable tool in RAG for efficiently retrieving relevant documents based on their vector representations. This capability enhances the model's ability to answer questions accurately by grounding responses in real content.",
+    "timestamp": "2026-07-16T04:08:55.611887+00:00",
+    "sources": [
+      {
+        "rank": 1,
+        "score": 1.4206138849258423,
+        "doc_id": "sample_ai_notes",
+        "chunk_index": 5,
+        "text": "base and passes them as context to the language model. The retrieval step typically uses dense vector embeddings. Each document is encoded into a numerical vector, and similar documents have vectors that are close together in vector space. FAISS is a popular library for storing and searching these vectors efficiently. The advantage of RAG over pure language model generation is that answers are grounded in actual retrieved content, reducing hallucination and allowing the system to answer questions about private or recent documents that were not part of the model's training data. Vector Databases\n\nA vector database stores high-dimensional numerical vectors and allows fast similarity search."
+      },
+      {
+        "rank": 2,
+        "score": 1.4596285820007324,
+        "doc_id": "sample_ai_notes",
+        "chunk_index": 4,
+        "text": "simultaneously, making it effective for understanding context. GPT stands for Generative Pre-trained Transformer. Unlike BERT, GPT is a decoder-only model trained to predict the next word in a sequence. GPT models are widely used for text generation tasks. Retrieval-Augmented Generation (RAG)\n\nRAG is a technique that combines a retrieval system with a language model. Instead of relying only on knowledge stored in the model weights, RAG retrieves relevant documents from an external knowledge base and passes them as context to the language model. The retrieval step typically uses dense vector embeddings."
+      },
+      {
+        "rank": 3,
+        "score": 1.6171594858169556,
+        "doc_id": "sample_ai_notes",
+        "chunk_index": 7,
+        "text": "on how the embedding model was trained. Popular vector databases include FAISS, Pinecone, Weaviate, and Chroma. FAISS is an open-source library developed by Meta that supports both exact and approximate nearest neighbor search."
+      },
+      {
+        "rank": 4,
+        "score": 1.8113911151885986,
+        "doc_id": "resume",
+        "chunk_index": 2,
+        "text": "Data Analytics) Aug 2022 \u2013 Jul 2024\nBirla Institute of Technology and Science, Pilani Hyderabad, Telangana\nB.E. (Hons.) in Computer Science Aug 2018 \u2013 May 2022\nSkills\nProgramming Languages: Python, Java, C++, C, R, JavaScript, HTML, CSS, XML\nFrameworks/Libraries: Spark, Hadoop, TensorFlow, Keras, NumPy, SciPy, PuLP, Apache Flink, Flask\nDatabases: MySQL, MongoDB\nAnalytical Techniques: Machine Learning, Data Clustering, Regression, Simulation, Time Series Analysis, Longi-\ntudinal Analysis\nSoftware/Technologies: Git, Android Studio, Simio, Arena, SNMP\nExperience\nWipro Limited Oct 2024 \u2013 Present\nMicrosoft StarLab \u2013 Network Software Engineer\n\u2022 Designed and developed a centralized PDU power-utilization monitoring platform using SNMP telemetry collection\nand time-series data ingestion to improve monitoring and reduce MTTR."
+      },
+      {
+        "rank": 5,
+        "score": 1.8113911151885986,
+        "doc_id": "resume",
+        "chunk_index": 2,
+        "text": "Data Analytics) Aug 2022 \u2013 Jul 2024\nBirla Institute of Technology and Science, Pilani Hyderabad, Telangana\nB.E. (Hons.) in Computer Science Aug 2018 \u2013 May 2022\nSkills\nProgramming Languages: Python, Java, C++, C, R, JavaScript, HTML, CSS, XML\nFrameworks/Libraries: Spark, Hadoop, TensorFlow, Keras, NumPy, SciPy, PuLP, Apache Flink, Flask\nDatabases: MySQL, MongoDB\nAnalytical Techniques: Machine Learning, Data Clustering, Regression, Simulation, Time Series Analysis, Longi-\ntudinal Analysis\nSoftware/Technologies: Git, Android Studio, Simio, Arena, SNMP\nExperience\nWipro Limited Oct 2024 \u2013 Present\nMicrosoft StarLab \u2013 Network Software Engineer\n\u2022 Designed and developed a centralized PDU power-utilization monitoring platform using SNMP telemetry collection\nand time-series data ingestion to improve monitoring and reduce MTTR."
+      },
+      {
+        "rank": 6,
+        "score": 1.8358204364776611,
+        "doc_id": "neural_networks_deep_learning_test_document",
+        "chunk_index": 3,
+        "text": "from vanishing gradients\n\nBackpropagation\n\nBackpropagation is the primary algorithm used to train neural networks. The process is:\n\n1. Perform forward propagation. 2. Compute the loss. 3. Calculate gradients of the loss with respect to model parameters. 4. Propagate gradients backward. 5. Update parameters using gradient descent. Backpropagation allows deep networks to learn by minimizing prediction\nerrors. Transformers\n\nTransformers are neural network architectures introduced in the paper\n\u201cAttention Is All You Need.\u201d\n\nUnlike recurrent neural networks, transformers process all tokens\nsimultaneously using a mechanism called self-attention."
+      },
+      {
+        "rank": 7,
+        "score": 1.8439686298370361,
+        "doc_id": "sample_ai_notes",
+        "chunk_index": 6,
+        "text": "data. Vector Databases\n\nA vector database stores high-dimensional numerical vectors and allows fast similarity search. When a user asks a question, the question is also encoded into a vector. The database finds the stored vectors that are most similar to the query vector. Similarity is typically measured using cosine similarity or L2 Euclidean distance. Cosine similarity measures the angle between vectors, while L2 distance measures the straight-line distance. Both are valid approaches depending on how the embedding model was trained. Popular vector databases include FAISS, Pinecone, Weaviate, and Chroma."
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": "Summarize the three types of machine learning",
+    "timestamp": "2026-07-16T04:10:36.515368+00:00"
+  },
+  {
+    "role": "assistant",
+    "content": "I don't know.",
+    "timestamp": "2026-07-16T04:10:36.548942+00:00",
+    "sources": [
+      {
+        "rank": 1,
+        "score": 0.751846969127655,
+        "doc_id": "sample_ai_notes",
+        "chunk_index": 0,
+        "text": "Introduction to AI and Machine Learning\n\nMachine learning is a subset of artificial intelligence where systems learn patterns from data without being explicitly programmed. There are three main types of machine learning: supervised learning, unsupervised learning, and reinforcement learning. In supervised learning, the model is trained on labeled data. For example, a spam classifier is trained on emails that are already labeled as spam or not spam. Common algorithms include linear regression, decision trees, and support vector machines. In unsupervised learning, the model finds hidden patterns in unlabeled data. Clustering is a common technique where data points are grouped by similarity."
+      },
+      {
+        "rank": 2,
+        "score": 1.132878303527832,
+        "doc_id": "neural_networks_deep_learning_test_document",
+        "chunk_index": 0,
+        "text": "Neural Networks and Deep Learning\n\nIntroduction\n\nArtificial Intelligence (AI) is the broader field of creating machines\nthat can perform tasks requiring human intelligence. Machine Learning\n(ML) is a subset of AI in which systems learn patterns from data instead\nof following explicitly programmed rules. Deep Learning is a specialized\nbranch of Machine Learning that uses neural networks with many layers to\nlearn complex representations. Deep learning has achieved remarkable success in areas such as image\nrecognition, natural language processing, speech recognition, and\nrecommendation systems."
+      },
+      {
+        "rank": 3,
+        "score": 1.161116361618042,
+        "doc_id": "resume",
+        "chunk_index": 7,
+        "text": "TensorFlow and\nthe COCO dataset. \u2022 Optimized model performance through hyperparameter tuning and dataset fine-tuning. Shepherd Center Rehabilitation Analysis \u2013 Georgia Institute of Technology\n\u2022 Developed regression and neural network models identifying variables impacting pressure ulcers with 80% accuracy. \u2022 Conducted hypothesis testing, feature importance analysis, and exploratory data analysis on patient datasets."
+      },
+      {
+        "rank": 4,
+        "score": 1.161116361618042,
+        "doc_id": "resume",
+        "chunk_index": 7,
+        "text": "TensorFlow and\nthe COCO dataset. \u2022 Optimized model performance through hyperparameter tuning and dataset fine-tuning. Shepherd Center Rehabilitation Analysis \u2013 Georgia Institute of Technology\n\u2022 Developed regression and neural network models identifying variables impacting pressure ulcers with 80% accuracy. \u2022 Conducted hypothesis testing, feature importance analysis, and exploratory data analysis on patient datasets."
+      },
+      {
+        "rank": 5,
+        "score": 1.1657476425170898,
+        "doc_id": "sample_ai_notes",
+        "chunk_index": 1,
+        "text": "finds hidden patterns in unlabeled data. Clustering is a common technique where data points are grouped by similarity. K-means clustering is one of the most widely used algorithms for this purpose. Reinforcement learning involves an agent that learns by interacting with an environment and receiving rewards or penalties based on its actions. It has been used to train systems that play games like chess and Go at a superhuman level. Neural Networks and Deep Learning\n\nA neural network is a computational model inspired by the structure of the human brain. It consists of layers of nodes called neurons."
+      },
+      {
+        "rank": 6,
+        "score": 1.2158178091049194,
+        "doc_id": "Rashmi_Nagpal_PdM",
+        "chunk_index": 8,
+        "text": "Microsoft Tax & Trade\nResponsible for Analytics, BI and Engineering efforts related to high volume trade transactions. Developed strategic objectives and provided guidance by defining goals for team leads and members, conducting performance evaluations, and offering mentorship to foster career development. Spearheaded automation initiatives leveraging SQL, ASP.Net, Azure, and Machine Learning (ML) technologies to enhance scalability and reduce error rates in transaction screening processes. Achievements include:\nSignificantly decreased case disposition time from approximately 6 minutes to less than 2 minutes per case through the implementation of a bot."
+      },
+      {
+        "rank": 7,
+        "score": 1.2331149578094482,
+        "doc_id": "Rashmi_Nagpal_PdM",
+        "chunk_index": 12,
+        "text": "to 15 days. Implement Machine Learning for failure prediction, leading the tech assessment of ML models and frameworks. Regularly communicate project status with stakeholders through created and published status reports. Prior Experiences\nEntrepreneur (Hyderabad, India) \t\t\t\t\t\t\t(Jul 2004 to Jun 2006)\nOperations Executive, ABN AMRO Bank (Chennai, India)\t\t\t\t\t(May 1999 to Apr 2000)\nCertifications\nMicrosoft Professional Program (MPP) in Data Science\t\t\t\t(2019)\nOracle Certified Professional (OCP)\t\t\t\t\t\t(1999)\nEducation\nMBA, Symbiosis Institute (Pune, India)\t\t\t\t\t\t(2000 \u2013 2002)\nBA, Ethiraj College, Chennai, India\t\t\t\t\t\t\t(1993 \u2013 1996)"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": "Summarize the three types of machine learning",
+    "timestamp": "2026-07-16T04:11:31.363934+00:00"
+  },
+  {
+    "role": "assistant",
+    "content": "The three main types of machine learning are:\n\n### 1. **Supervised Learning**\n   - **Definition**: In supervised learning, the model is trained on labeled data, meaning that the input data is paired with the correct output.\n   - **Example**: A spam classifier is trained on emails that are already labeled as spam or not spam.\n   - **Common Algorithms**: Includes linear regression, decision trees, and support vector machines.\n\n### 2. **Unsupervised Learning**\n   - **Definition**: In unsupervised learning, the model finds hidden patterns in unlabeled data, meaning there are no predefined labels or outputs.\n   - **Common Technique**: Clustering, where data points are grouped by similarity.\n   - **Example Algorithm**: K-means clustering is one of the most widely used algorithms for this purpose.\n\n### 3. **Reinforcement Learning**\n   - **Definition**: Reinforcement learning involves an agent that learns by interacting with an environment and receiving rewards or penalties based on its actions.\n   - **Applications**: It has been used to train systems that play games like chess and Go at a superhuman level.\n\nIn summary, supervised learning uses labeled data for training, unsupervised learning identifies patterns in unlabeled data, and reinforcement learning focuses on learning through interaction and feedback from the environment.",
+    "timestamp": "2026-07-16T04:11:31.396934+00:00",
+    "sources": [
+      {
+        "rank": 1,
+        "score": 0.751846969127655,
+        "doc_id": "sample_ai_notes",
+        "chunk_index": 0,
+        "text": "Introduction to AI and Machine Learning\n\nMachine learning is a subset of artificial intelligence where systems learn patterns from data without being explicitly programmed. There are three main types of machine learning: supervised learning, unsupervised learning, and reinforcement learning. In supervised learning, the model is trained on labeled data. For example, a spam classifier is trained on emails that are already labeled as spam or not spam. Common algorithms include linear regression, decision trees, and support vector machines. In unsupervised learning, the model finds hidden patterns in unlabeled data. Clustering is a common technique where data points are grouped by similarity."
+      },
+      {
+        "rank": 2,
+        "score": 1.132878303527832,
+        "doc_id": "neural_networks_deep_learning_test_document",
+        "chunk_index": 0,
+        "text": "Neural Networks and Deep Learning\n\nIntroduction\n\nArtificial Intelligence (AI) is the broader field of creating machines\nthat can perform tasks requiring human intelligence. Machine Learning\n(ML) is a subset of AI in which systems learn patterns from data instead\nof following explicitly programmed rules. Deep Learning is a specialized\nbranch of Machine Learning that uses neural networks with many layers to\nlearn complex representations. Deep learning has achieved remarkable success in areas such as image\nrecognition, natural language processing, speech recognition, and\nrecommendation systems."
+      },
+      {
+        "rank": 3,
+        "score": 1.161116361618042,
+        "doc_id": "resume",
+        "chunk_index": 7,
+        "text": "TensorFlow and\nthe COCO dataset. \u2022 Optimized model performance through hyperparameter tuning and dataset fine-tuning. Shepherd Center Rehabilitation Analysis \u2013 Georgia Institute of Technology\n\u2022 Developed regression and neural network models identifying variables impacting pressure ulcers with 80% accuracy. \u2022 Conducted hypothesis testing, feature importance analysis, and exploratory data analysis on patient datasets."
+      },
+      {
+        "rank": 4,
+        "score": 1.161116361618042,
+        "doc_id": "resume",
+        "chunk_index": 7,
+        "text": "TensorFlow and\nthe COCO dataset. \u2022 Optimized model performance through hyperparameter tuning and dataset fine-tuning. Shepherd Center Rehabilitation Analysis \u2013 Georgia Institute of Technology\n\u2022 Developed regression and neural network models identifying variables impacting pressure ulcers with 80% accuracy. \u2022 Conducted hypothesis testing, feature importance analysis, and exploratory data analysis on patient datasets."
+      },
+      {
+        "rank": 5,
+        "score": 1.1657476425170898,
+        "doc_id": "sample_ai_notes",
+        "chunk_index": 1,
+        "text": "finds hidden patterns in unlabeled data. Clustering is a common technique where data points are grouped by similarity. K-means clustering is one of the most widely used algorithms for this purpose. Reinforcement learning involves an agent that learns by interacting with an environment and receiving rewards or penalties based on its actions. It has been used to train systems that play games like chess and Go at a superhuman level. Neural Networks and Deep Learning\n\nA neural network is a computational model inspired by the structure of the human brain. It consists of layers of nodes called neurons."
+      },
+      {
+        "rank": 6,
+        "score": 1.2158178091049194,
+        "doc_id": "Rashmi_Nagpal_PdM",
+        "chunk_index": 8,
+        "text": "Microsoft Tax & Trade\nResponsible for Analytics, BI and Engineering efforts related to high volume trade transactions. Developed strategic objectives and provided guidance by defining goals for team leads and members, conducting performance evaluations, and offering mentorship to foster career development. Spearheaded automation initiatives leveraging SQL, ASP.Net, Azure, and Machine Learning (ML) technologies to enhance scalability and reduce error rates in transaction screening processes. Achievements include:\nSignificantly decreased case disposition time from approximately 6 minutes to less than 2 minutes per case through the implementation of a bot."
+      },
+      {
+        "rank": 7,
+        "score": 1.2331149578094482,
+        "doc_id": "Rashmi_Nagpal_PdM",
+        "chunk_index": 12,
+        "text": "to 15 days. Implement Machine Learning for failure prediction, leading the tech assessment of ML models and frameworks. Regularly communicate project status with stakeholders through created and published status reports. Prior Experiences\nEntrepreneur (Hyderabad, India) \t\t\t\t\t\t\t(Jul 2004 to Jun 2006)\nOperations Executive, ABN AMRO Bank (Chennai, India)\t\t\t\t\t(May 1999 to Apr 2000)\nCertifications\nMicrosoft Professional Program (MPP) in Data Science\t\t\t\t(2019)\nOracle Certified Professional (OCP)\t\t\t\t\t\t(1999)\nEducation\nMBA, Symbiosis Institute (Pune, India)\t\t\t\t\t\t(2000 \u2013 2002)\nBA, Ethiraj College, Chennai, India\t\t\t\t\t\t\t(1993 \u2013 1996)"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": "Summarize the three types of machine learning",
+    "timestamp": "2026-07-16T04:11:54.628410+00:00"
+  },
+  {
+    "role": "assistant",
+    "content": "- **Supervised Learning**: Involves training models on labeled data, where input data is paired with the correct output. Common algorithms include linear regression and decision trees.\n\n- **Unsupervised Learning**: Focuses on finding hidden patterns in unlabeled data without predefined labels. Clustering is a common technique, with K-means clustering being a widely used algorithm.\n\n- **Reinforcement Learning**: Involves an agent learning by interacting with an environment and receiving rewards or penalties based on its actions. It is used in applications like training systems to play games at a superhuman level.",
+    "timestamp": "2026-07-16T04:11:54.702040+00:00",
+    "sources": [
+      {
+        "rank": 1,
+        "score": 0.751846969127655,
+        "doc_id": "sample_ai_notes",
+        "chunk_index": 0,
+        "text": "Introduction to AI and Machine Learning\n\nMachine learning is a subset of artificial intelligence where systems learn patterns from data without being explicitly programmed. There are three main types of machine learning: supervised learning, unsupervised learning, and reinforcement learning. In supervised learning, the model is trained on labeled data. For example, a spam classifier is trained on emails that are already labeled as spam or not spam. Common algorithms include linear regression, decision trees, and support vector machines. In unsupervised learning, the model finds hidden patterns in unlabeled data. Clustering is a common technique where data points are grouped by similarity."
+      },
+      {
+        "rank": 2,
+        "score": 1.132878303527832,
+        "doc_id": "neural_networks_deep_learning_test_document",
+        "chunk_index": 0,
+        "text": "Neural Networks and Deep Learning\n\nIntroduction\n\nArtificial Intelligence (AI) is the broader field of creating machines\nthat can perform tasks requiring human intelligence. Machine Learning\n(ML) is a subset of AI in which systems learn patterns from data instead\nof following explicitly programmed rules. Deep Learning is a specialized\nbranch of Machine Learning that uses neural networks with many layers to\nlearn complex representations. Deep learning has achieved remarkable success in areas such as image\nrecognition, natural language processing, speech recognition, and\nrecommendation systems."
+      },
+      {
+        "rank": 3,
+        "score": 1.161116361618042,
+        "doc_id": "resume",
+        "chunk_index": 7,
+        "text": "TensorFlow and\nthe COCO dataset. \u2022 Optimized model performance through hyperparameter tuning and dataset fine-tuning. Shepherd Center Rehabilitation Analysis \u2013 Georgia Institute of Technology\n\u2022 Developed regression and neural network models identifying variables impacting pressure ulcers with 80% accuracy. \u2022 Conducted hypothesis testing, feature importance analysis, and exploratory data analysis on patient datasets."
+      },
+      {
+        "rank": 4,
+        "score": 1.161116361618042,
+        "doc_id": "resume",
+        "chunk_index": 7,
+        "text": "TensorFlow and\nthe COCO dataset. \u2022 Optimized model performance through hyperparameter tuning and dataset fine-tuning. Shepherd Center Rehabilitation Analysis \u2013 Georgia Institute of Technology\n\u2022 Developed regression and neural network models identifying variables impacting pressure ulcers with 80% accuracy. \u2022 Conducted hypothesis testing, feature importance analysis, and exploratory data analysis on patient datasets."
+      },
+      {
+        "rank": 5,
+        "score": 1.1657476425170898,
+        "doc_id": "sample_ai_notes",
+        "chunk_index": 1,
+        "text": "finds hidden patterns in unlabeled data. Clustering is a common technique where data points are grouped by similarity. K-means clustering is one of the most widely used algorithms for this purpose. Reinforcement learning involves an agent that learns by interacting with an environment and receiving rewards or penalties based on its actions. It has been used to train systems that play games like chess and Go at a superhuman level. Neural Networks and Deep Learning\n\nA neural network is a computational model inspired by the structure of the human brain. It consists of layers of nodes called neurons."
+      },
+      {
+        "rank": 6,
+        "score": 1.2158178091049194,
+        "doc_id": "Rashmi_Nagpal_PdM",
+        "chunk_index": 8,
+        "text": "Microsoft Tax & Trade\nResponsible for Analytics, BI and Engineering efforts related to high volume trade transactions. Developed strategic objectives and provided guidance by defining goals for team leads and members, conducting performance evaluations, and offering mentorship to foster career development. Spearheaded automation initiatives leveraging SQL, ASP.Net, Azure, and Machine Learning (ML) technologies to enhance scalability and reduce error rates in transaction screening processes. Achievements include:\nSignificantly decreased case disposition time from approximately 6 minutes to less than 2 minutes per case through the implementation of a bot."
+      },
+      {
+        "rank": 7,
+        "score": 1.2331149578094482,
+        "doc_id": "Rashmi_Nagpal_PdM",
+        "chunk_index": 12,
+        "text": "to 15 days. Implement Machine Learning for failure prediction, leading the tech assessment of ML models and frameworks. Regularly communicate project status with stakeholders through created and published status reports. Prior Experiences\nEntrepreneur (Hyderabad, India) \t\t\t\t\t\t\t(Jul 2004 to Jun 2006)\nOperations Executive, ABN AMRO Bank (Chennai, India)\t\t\t\t\t(May 1999 to Apr 2000)\nCertifications\nMicrosoft Professional Program (MPP) in Data Science\t\t\t\t(2019)\nOracle Certified Professional (OCP)\t\t\t\t\t\t(1999)\nEducation\nMBA, Symbiosis Institute (Pune, India)\t\t\t\t\t\t(2000 \u2013 2002)\nBA, Ethiraj College, Chennai, India\t\t\t\t\t\t\t(1993 \u2013 1996)"
+      }
+    ]
+  }
+]

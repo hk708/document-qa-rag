@@ -5,6 +5,7 @@ from fastapi.middleware.cors import CORSMiddleware
 
 from app.routes.upload import router as upload_router
 from app.routes.ask import router as ask_router
+from app.routes.conversations import router as conversations_router
 from app.services.vector_store import load_index
 
 
@@ -28,6 +29,7 @@ app.add_middleware(
 
 app.include_router(upload_router, prefix="/api", tags=["Upload"])
 app.include_router(ask_router, prefix="/api", tags=["Ask"])
+app.include_router(conversations_router, prefix="/api", tags=["Conversations"])
 
 
 @app.get("/health")

@@ -1,13 +1,21 @@
 import { useState } from 'react'
 import SourceChunks from './SourceChunks'
 
-export default function QuestionPanel({ onAsk, askState, indexed }) {
+export default function QuestionPanel({
+  onAsk,
+  askState,
+  indexed,
+  messages,
+  selectedConversationId,
+}) {
   const [question, setQuestion] = useState('')
+  const [answerMode, setAnswerMode] = useState('detailed')
 
   function handleSubmit(e) {
     e.preventDefault()
     if (!question.trim()) return
-    onAsk(question)
+    onAsk(question, answerMode)
+    setQuestion('')
   }
 
   const isLoading = askState.status === 'loading'
@@ -17,9 +25,36 @@ export default function QuestionPanel({ onAsk, askState, indexed }) {
 
   return (
     <section className="panel question-panel">
-      <h2>Ask a Question</h2>
+      <h2>{selectedConversationId ? 'Conversation' : 'New Conversation'}</h2>
+
+      <div className="chat-thread">
+        {messages.length === 0 ? (
+          <p className="hint">Ask your first question to start this conversation.</p>
+        ) : (
+          messages.map((m, i) => (
+            <div key={i} className={`chat-msg ${m.role}`}>
+              <div className="chat-role">{m.role === 'user' ? 'You' : 'Assistant'}</div>
+              <p className="answer-text">{m.content}</p>
+              {m.role === 'assistant' && m.sources && m.sources.length > 0 && (
+                <SourceChunks sources={m.sources} />
+              )}
+            </div>
+          ))
+        )}
+      </div>
 
       <form onSubmit={handleSubmit} className="ask-form">
+        <select
+          className="question-input"
+          value={answerMode}
+          onChange={e => setAnswerMode(e.target.value)}
+          disabled={isLoading}
+          aria-label="Answer mode"
+        >
+          <option value="concise">Concise</option>
+          <option value="detailed">Detailed</option>
+          <option value="bullet_summary">Bullet Summary</option>
+        </select>
         <input
           type="text"
           className="question-input"
@@ -50,7 +85,7 @@ export default function QuestionPanel({ onAsk, askState, indexed }) {
 
       {askState.status === 'success' && (
         <div className="answer-block">
-          <h3 className="section-label">Answer</h3>
+          <h3 className="section-label">Latest Answer</h3>
           <p className="answer-text">{askState.answer}</p>
           <SourceChunks sources={askState.sources} />
         </div>

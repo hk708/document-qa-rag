@@ -47,7 +47,7 @@ export default function UploadPanel({ onUpload, uploadState }) {
 
       {uploadState.message && (
         <p className={`status-msg ${uploadState.status}`}>
-          {uploadState.status === 'success' ? '✅ ' : '❌ '}
+          {uploadState.status === 'success' ? '✅ ' : uploadState.status === 'warning' ? '⚠️ ' : '❌ '}
           {uploadState.message}
         </p>
       )}

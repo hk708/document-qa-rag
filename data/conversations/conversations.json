@@ -1,0 +1,10 @@
+[
+  {
+    "conversation_id": "conv_001",
+    "user_id": "local_user",
+    "title": "BERT Questions",
+    "summary": "The conversation discusses BERT and GPT, two transformer-based models used in natural language processing. \n\n**BERT** (Bidirectional Encoder Representations from Transformers) is developed by Google, utilizing a bidirectional encoder architecture and trained with Masked Language Modeling, making it effective for understanding tasks like question answering, text classification, and named entity recognition.\n\n**GPT** (Generative Pre-trained Transformer) is an autoregressive model that predicts the next token in a sequence, focusing on text generation. It employs a decoder-only architecture and is strong in applications such as chatbots and content generation.\n\nKey differences include BERT's bidirectional nature versus GPT's unidirectional approach, and their respective training objectives and strengths in various NLP tasks. No unresolved items were noted in the conversation.",
+    "created_at": "2026-07-16T04:02:20.285854+00:00",
+    "updated_at": "2026-07-16T04:11:54.722021+00:00"
+  }
+]

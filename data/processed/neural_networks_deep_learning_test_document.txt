@@ -1,0 +1,141 @@
+Neural Networks and Deep Learning
+
+Introduction
+
+Artificial Intelligence (AI) is the broader field of creating machines
+that can perform tasks requiring human intelligence. Machine Learning
+(ML) is a subset of AI in which systems learn patterns from data instead
+of following explicitly programmed rules. Deep Learning is a specialized
+branch of Machine Learning that uses neural networks with many layers to
+learn complex representations.
+
+Deep learning has achieved remarkable success in areas such as image
+recognition, natural language processing, speech recognition, and
+recommendation systems.
+
+Artificial Neural Networks
+
+An Artificial Neural Network (ANN) is inspired by the structure of the
+human brain. It consists of interconnected nodes called neurons arranged
+in layers.
+
+There are three primary layers:
+
+1.  Input Layer – Receives raw features from the data.
+2.  Hidden Layers – Transform the data through weighted computations and
+    nonlinear activation functions.
+3.  Output Layer – Produces the final prediction.
+
+Each neuron receives inputs, multiplies them by weights, adds a bias
+term, and passes the result through an activation function.
+
+Activation Functions
+
+Activation functions introduce non-linearity into neural networks.
+
+ReLU
+
+Rectified Linear Unit (ReLU) is defined as:
+
+f(x) = max(0, x)
+
+Advantages: - Computationally efficient - Reduces vanishing gradient
+problems - Widely used in deep networks
+
+Disadvantages: - Can suffer from dying neurons
+
+Sigmoid
+
+The sigmoid function maps values to the range 0 to 1.
+
+Advantages: - Produces probabilities - Smooth and differentiable
+
+Disadvantages: - Suffers from vanishing gradients
+
+Backpropagation
+
+Backpropagation is the primary algorithm used to train neural networks.
+
+The process is:
+
+1.  Perform forward propagation.
+2.  Compute the loss.
+3.  Calculate gradients of the loss with respect to model parameters.
+4.  Propagate gradients backward.
+5.  Update parameters using gradient descent.
+
+Backpropagation allows deep networks to learn by minimizing prediction
+errors.
+
+Transformers
+
+Transformers are neural network architectures introduced in the paper
+“Attention Is All You Need.”
+
+Unlike recurrent neural networks, transformers process all tokens
+simultaneously using a mechanism called self-attention.
+
+Advantages of transformers:
+
+-   Parallel computation
+-   Better long-range dependency modeling
+-   Improved scalability
+-   State-of-the-art performance in NLP
+
+Popular transformer models include:
+
+-   BERT
+-   GPT
+-   T5
+-   Llama
+
+BERT
+
+BERT stands for Bidirectional Encoder Representations from Transformers.
+
+It uses a bidirectional encoder architecture and is trained using Masked
+Language Modeling.
+
+BERT is particularly effective for:
+
+-   Question answering
+-   Text classification
+-   Named entity recognition
+
+GPT
+
+GPT stands for Generative Pre-trained Transformer.
+
+GPT uses a decoder-only architecture.
+
+Unlike BERT, GPT predicts the next token in a sequence and is optimized
+for text generation.
+
+Applications include:
+
+-   Chatbots
+-   Content generation
+-   Coding assistants
+-   Summarization
+
+Comparison Between BERT and GPT
+
+BERT: - Bidirectional - Encoder-only - Strong for understanding tasks
+
+GPT: - Autoregressive - Decoder-only - Strong for text generation
+
+Although both are transformer-based models, they are optimized for
+different objectives.
+
+Limitations of Deep Learning
+
+Despite its success, deep learning has limitations:
+
+-   Requires large amounts of data
+-   High computational cost
+-   Difficult to interpret
+-   Sensitive to biases in training data
+-   Expensive to train large models
+
+Researchers continue to explore methods to improve efficiency,
+interpretability, and fairness in AI systems.

@@ -66,8 +66,9 @@ from app.services.embeddings import get_embedding
 
 # Where to persist the index between server restarts.
 _INDEX_DIR = Path("data/index")
-_FAISS_FILE = "faiss.index"
-_META_FILE  = "metadata.pkl"
+_FAISS_FILE          = "faiss.index"
+_META_FILE           = "metadata.pkl"
+_DOC_REGISTRY_FILE   = "doc_registry.pkl"
 
 # Must match the model in embeddings.py ("all-MiniLM-L6-v2" → 384 dims).
 _EMBEDDING_DIM = 384
@@ -83,6 +84,10 @@ _index: faiss.Index | None = None
 # Parallel list: _metadata[i] describes the vector at FAISS internal id i.
 # Stored keys: doc_id, chunk_id, chunk_index, text.
 _metadata: list[dict] = []
+
+# Document-level registry: keyed by doc_id.
+# Each entry holds: doc_id, original_filename, content_hash.
+_doc_registry: dict[str, dict] = {}
 
 # ---------------------------------------------------------------------------
 # Internal helpers
@@ -132,7 +137,7 @@ def add_embeddings(embedded_chunks: list[dict]) -> None:
 
     # Dedup guard: skip the entire batch if this doc_id is already indexed.
     doc_id = embedded_chunks[0]["doc_id"]
-    if any(m["doc_id"] == doc_id for m in _metadata):
+    if doc_id in _doc_registry:
         return
 
     index = _get_index()
@@ -248,6 +253,10 @@ def save_index(directory: str | Path = _INDEX_DIR) -> None:
     with open(directory / _META_FILE, "wb") as f:
         pickle.dump(_metadata, f)
 
+    # Document registry: one entry per indexed document.
+    with open(directory / _DOC_REGISTRY_FILE, "wb") as f:
+        pickle.dump(_doc_registry, f)
+
 
 def load_index(directory: str | Path = _INDEX_DIR) -> None:
     """Load a previously saved FAISS index and metadata from disk.
@@ -257,10 +266,11 @@ def load_index(directory: str | Path = _INDEX_DIR) -> None:
 
     If the files don't exist yet, the function is a safe no-op.
     """
-    global _index, _metadata
+    global _index, _metadata, _doc_registry
 
-    index_path = Path(directory) / _FAISS_FILE
-    meta_path  = Path(directory) / _META_FILE
+    index_path    = Path(directory) / _FAISS_FILE
+    meta_path     = Path(directory) / _META_FILE
+    registry_path = Path(directory) / _DOC_REGISTRY_FILE
 
     if not index_path.exists() or not meta_path.exists():
         return  # Nothing saved yet — start with an empty index.
@@ -269,6 +279,41 @@ def load_index(directory: str | Path = _INDEX_DIR) -> None:
 
     with open(meta_path, "rb") as f:
         _metadata = pickle.load(f)
+
+    # Registry file may not exist when upgrading from an older version.
+    if registry_path.exists():
+        with open(registry_path, "rb") as f:
+            _doc_registry = pickle.load(f)
+
+
+def is_doc_indexed(doc_id: str) -> bool:
+    """Return True if *doc_id* is already in the document registry."""
+    return doc_id in _doc_registry
+
+
+def register_document(doc_id: str, filename: str, content_hash: str) -> None:
+    """Record document-level metadata (filename + SHA-256 content hash).
+
+    Must be called after ``add_embeddings()`` and before ``save_index()``
+    so the registry entry is persisted in the same write cycle.
+    """
+    _doc_registry[doc_id] = {
+        "doc_id":            doc_id,
+        "original_filename": filename,
+        "content_hash":      content_hash,
+    }
+
+
+def get_doc_by_hash(content_hash: str) -> dict | None:
+    """Return the registry entry whose content_hash matches, or None.
+
+    Used during upload to detect when the same document content is
+    submitted under a different filename (rename / alias case).
+    """
+    for entry in _doc_registry.values():
+        if entry["content_hash"] == content_hash:
+            return entry
+    return None
 
 
 def total_vectors() -> int:

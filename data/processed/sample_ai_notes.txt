@@ -1,0 +1,41 @@
+Introduction to AI and Machine Learning
+
+Machine learning is a subset of artificial intelligence where systems learn patterns from data without being explicitly programmed. There are three main types of machine learning: supervised learning, unsupervised learning, and reinforcement learning.
+
+In supervised learning, the model is trained on labeled data. For example, a spam classifier is trained on emails that are already labeled as spam or not spam. Common algorithms include linear regression, decision trees, and support vector machines.
+
+In unsupervised learning, the model finds hidden patterns in unlabeled data. Clustering is a common technique where data points are grouped by similarity. K-means clustering is one of the most widely used algorithms for this purpose.
+
+Reinforcement learning involves an agent that learns by interacting with an environment and receiving rewards or penalties based on its actions. It has been used to train systems that play games like chess and Go at a superhuman level.
+
+Neural Networks and Deep Learning
+
+A neural network is a computational model inspired by the structure of the human brain. It consists of layers of nodes called neurons. Each neuron receives input, applies a mathematical operation, and passes the result to the next layer.
+
+Deep learning refers to neural networks with many layers, also called deep neural networks. These networks have been particularly successful in tasks like image recognition, speech recognition, and natural language processing.
+
+The training process involves adjusting the weights of connections between neurons using a technique called backpropagation combined with an optimization algorithm such as gradient descent.
+
+Transformers and Language Models
+
+The transformer architecture was introduced in the paper "Attention Is All You Need" in 2017. It replaced recurrent neural networks as the dominant architecture for natural language processing tasks.
+
+BERT stands for Bidirectional Encoder Representations from Transformers. It was developed by Google and pre-trained on a large corpus of text. BERT reads text in both directions simultaneously, making it effective for understanding context.
+
+GPT stands for Generative Pre-trained Transformer. Unlike BERT, GPT is a decoder-only model trained to predict the next word in a sequence. GPT models are widely used for text generation tasks.
+
+Retrieval-Augmented Generation (RAG)
+
+RAG is a technique that combines a retrieval system with a language model. Instead of relying only on knowledge stored in the model weights, RAG retrieves relevant documents from an external knowledge base and passes them as context to the language model.
+
+The retrieval step typically uses dense vector embeddings. Each document is encoded into a numerical vector, and similar documents have vectors that are close together in vector space. FAISS is a popular library for storing and searching these vectors efficiently.
+
+The advantage of RAG over pure language model generation is that answers are grounded in actual retrieved content, reducing hallucination and allowing the system to answer questions about private or recent documents that were not part of the model's training data.
+
+Vector Databases
+
+A vector database stores high-dimensional numerical vectors and allows fast similarity search. When a user asks a question, the question is also encoded into a vector. The database finds the stored vectors that are most similar to the query vector.
+
+Similarity is typically measured using cosine similarity or L2 Euclidean distance. Cosine similarity measures the angle between vectors, while L2 distance measures the straight-line distance. Both are valid approaches depending on how the embedding model was trained.
+
+Popular vector databases include FAISS, Pinecone, Weaviate, and Chroma. FAISS is an open-source library developed by Meta that supports both exact and approximate nearest neighbor search.
