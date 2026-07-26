@@ -1,0 +1,58 @@
+[
+  {
+    "question_id": "q001",
+    "question": "What are the main technical skills listed in Himnish's resume?",
+    "expected_answer": "Python, relevant frameworks or tools listed in the skills section of the resume.",
+    "supporting_evidence": "Replace this with the exact sentence or bullet point from the resume that lists technical skills.",
+    "document_id": "Himnish_latest_resume (1)",
+    "category": "resume_skills"
+  },
+  {
+    "question_id": "q002",
+    "question": "What work experience does Himnish have?",
+    "expected_answer": "The companies or roles listed under work experience in the resume.",
+    "supporting_evidence": "Replace this with the exact job title and company name from the resume.",
+    "document_id": "Himnish_latest_resume (1)",
+    "category": "resume_experience"
+  },
+  {
+    "question_id": "q003",
+    "question": "What is backpropagation and how does it work?",
+    "expected_answer": "Backpropagation is an algorithm that computes gradients of the loss function with respect to each weight using the chain rule, enabling neural networks to learn.",
+    "supporting_evidence": "Replace this with the exact sentence from the neural networks document that defines backpropagation.",
+    "document_id": "neural_networks_deep_learning_test_document",
+    "category": "technical_concepts"
+  },
+  {
+    "question_id": "q004",
+    "question": "What is the difference between supervised and unsupervised learning?",
+    "expected_answer": "Supervised learning uses labeled training data; unsupervised learning finds patterns in unlabeled data.",
+    "supporting_evidence": "Replace this with the exact sentence from the AI notes document that distinguishes supervised from unsupervised learning.",
+    "document_id": "sample_ai_notes",
+    "category": "technical_concepts"
+  },
+  {
+    "question_id": "q005",
+    "question": "What are the rules for player eligibility in the Seattle Premier League?",
+    "expected_answer": "The eligibility requirements as stated in the Seattle Premier League rules document.",
+    "supporting_evidence": "Replace this with the exact rule clause about player eligibility from the document.",
+    "document_id": "Seattle Premier League Rules",
+    "category": "rules_lookup"
+  },
+  {
+    "question_id": "q006",
+    "question": "What is an activation function and why is it used in neural networks?",
+    "expected_answer": "An activation function introduces non-linearity into the network, allowing it to learn complex patterns beyond simple linear relationships.",
+    "supporting_evidence": "Replace this with the exact sentence from the document that explains activation functions.",
+    "document_id": "neural_networks_deep_learning_test_document",
+    "category": "technical_concepts"
+  },
+  {
+    "question_id": "q007",
+    "question": "What is Rashmi Nagpal's professional background?",
+    "expected_answer": "The professional background, title, and experience described in the PdM document.",
+    "supporting_evidence": "Replace this with the exact line from the Rashmi Nagpal document that describes her role or background.",
+    "document_id": "Rashmi_Nagpal_PdM",
+    "category": "resume_background"
+  }
+]
